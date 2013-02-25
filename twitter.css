@@ -1,0 +1,130 @@
+/* Custom user styles for Twitter.com by Connor Sears
+===================================================== */
+
+/* Hide all the things! (Footer, Mini-profile, Trends, Profile Tweetbox, etc)  */
+.site-footer,
+.trends,
+.wtf-module.has-content,
+.enhanced-media-thumbnails,
+.mini-profile,
+.chev-right,
+.module[data-component-term^="profile_tweetbox"],
+.bird-topbar-etched { 
+  display: none !important; 
+}
+
+/* Base structure
+================================================== */
+
+/* Center the content and resize to one column */
+.content-main { float: none; margin: 0 auto; }
+.wrapper { width: 520px; }
+
+/* Top bar
+================================================== */
+
+.global-nav .container {
+  width: 550px;
+}
+/* Hide the main navigation text */
+.global-nav #global-actions li span.text {
+  display: none;
+}
+/* Condense the main nav icons and center the glow */
+#global-actions.nav i {
+  margin-right: 0;
+}
+.nav .nav-new {
+  margin-left: -12px;
+}
+/* Adjust the search form to work well in the smaller top bar */
+.global-nav .form-search {
+  width: 170px;
+}
+.global-nav .search-input { width: 110px; }
+.global-nav .search-input.focus { width: 130px; }
+
+/* Move the load spinner to the top right on the screen */
+.push-loader {right: 20px; left: auto;}
+
+
+/* Side navigation
+================================================== */
+
+/* Move the dashboard parent div to the left margin. */
+.dashboard { 
+  position: absolute; 
+  left: -210px; 
+  width: 200px;
+ }
+
+/* Nav module */
+.module { 
+  border: none;
+}
+.module .list-link {
+  border-top: none;
+  -webkit-transition: all .1s linear;
+     -moz-transition: all .1s linear;
+}
+
+/* Nav styles based on the user specified overlay color  */
+/* White */
+.module { 
+  -webkit-box-shadow: 0 -1px 0 rgba(0,0,0,.2);
+     -moz-box-shadow:  0 -1px 0 rgba(0,0,0,.2);
+          box-shadow:  0 1px 0 rgba(0,0,0,.2);
+}
+.module .list-link {
+  background-color: rgba(255,255,255,.5);
+  color: #333;
+  text-shadow: 0 1px 0 rgba(255,255,255,.3);
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+.module:hover .list-link {
+  background-color: rgba(255,255,255,.7);
+ }
+.module .list-link:hover,
+.module .active .list-link {
+  color: #111;
+}
+.module .list-link:hover,
+.module .active .list-link {
+  background-color: rgba(255,255,255,.9);;
+}
+/* Black */
+.wrapper.black .module { 
+  -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.1);
+     -moz-box-shadow:  0 1px 0 rgba(255,255,255,.1);
+          box-shadow:  0 1px 0 rgba(255,255,255,.1), inset 0 0 5px rgba(0,0,0,.3);
+ }
+.wrapper.black .module .list-link {
+  background-color: rgba(0,0,0,.3);
+  color: #ccc;
+  text-shadow: 0 1px 0 rgba(0,0,0,.5);
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+.wrapper.black .module:hover .list-link {
+  background-color: rgba(0,0,0,.5);
+}
+.wrapper.black .module .list-link:hover,
+.wrapper.black .module .active .list-link {
+  color: #eee;
+}
+.wrapper.black .module .list-link:hover,
+.wrapper.black .module .active .list-link {
+  background-color: rgba(0,0,0,.7);;
+}
+
+/* Misc
+================================================== */
+
+/* Change the profile bio text to Georgia. For old times sake. */
+.profile-card.profile-header .bio { 
+  font-family: Georgia, serif; 
+  font-style: italic; 
+}
