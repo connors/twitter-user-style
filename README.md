@@ -15,5 +15,5 @@ Feel free to send any questions or feedback to [connor@connorsears.com][1] or fi
 
 [1]: mailto:connor@connorsears.com        "Email Connor"
 [2]: http://twitter.com/connors            "Connor Sears on Twitter"
-[3]: https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe/related "Stylish Extension"
+[3]: https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe "Stylish Extension"
 [4]: https://addons.mozilla.org/en-US/firefox/addon/user-style-manager/ "User Style Manager"
