@@ -5,8 +5,8 @@ I love Twitter. I especially love how simple it is on mobile and this user style
 <img src="https://raw.github.com/connors/twitter-user-style/master/screenshot.png" alt="screenshot" />
 
 ## Notes
-Feel free to send any questions or feedback to [connors@connorsears.com][1] or find me on Twitter at @[connors][2].
+Feel free to send any questions or feedback to [connor@connorsears.com][1] or find me on Twitter at @[connors][2].
 
 
-[1]: mailto:connors@connorsears.com        "Email Connor"
+[1]: mailto:connor@connorsears.com        "Email Connor"
 [2]: http://twitter.com/connors            "Connor Sears on Twitter"
