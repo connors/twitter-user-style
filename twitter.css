@@ -1,5 +1,5 @@
-/* Custom user styles for Twitter.com by Connor Sears
-===================================================== */
+/* Custom user style for Twitter.com by Connor Sears
+================================================== */
 
 /* Hide all the things! (Footer, Mini-profile, Trends, Profile Tweetbox, etc)  */
 .site-footer,
@@ -45,8 +45,14 @@
 .global-nav .search-input.focus { width: 130px; }
 
 /* Move the load spinner to the top right on the screen */
-.push-loader {right: 20px; left: auto;}
-
+.pushstate-spinner { 
+  position: absolute;
+  top: 1px;
+  right: 20px;
+  left: auto;
+}
+/* So I can place the pushstate-spinner all the way to the right. */
+.container { position: static; }
 
 /* Side navigation
 ================================================== */
@@ -96,7 +102,7 @@
 }
 /* Black */
 .wrapper.black .module { 
-  -webkit-box-shadow:  0 1px 0 rgba(255,255,255,.1);
+  -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.1);
      -moz-box-shadow:  0 1px 0 rgba(255,255,255,.1);
           box-shadow:  0 1px 0 rgba(255,255,255,.1), inset 0 0 5px rgba(0,0,0,.3);
  }
