@@ -5,9 +5,10 @@ I love Twitter. I especially love how simple it is on mobile and this user style
 <img src="https://raw.github.com/connors/twitter-user-style/master/screenshot.png" alt="screenshot" />
 
 ## Installation
-Managing user styles depends on what browser you're using.  
- * For Chrome, install the [Stylish][3] extension.
- * For Firefox, install the [User Style Manager][4] addon.
+Use the Stylish extension for the browser you prefer.  
+ * Get the [Chrome][3] extension.
+ * Get the [Safari][4] extension.
+ * Get the [Firefox][5] addon.
 
 ## Notes
 Feel free to send any questions or feedback to [connor@connorsears.com][1] or find me on Twitter at @[connors][2].
@@ -15,5 +16,6 @@ Feel free to send any questions or feedback to [connor@connorsears.com][1] or fi
 
 [1]: mailto:connor@connorsears.com        "Email Connor"
 [2]: http://twitter.com/connors            "Connor Sears on Twitter"
-[3]: https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe "Stylish Extension"
-[4]: https://addons.mozilla.org/en-US/firefox/addon/user-style-manager/ "User Style Manager"
+[3]: https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe "Stylish for Chrome"
+[4]: http://sobolev.us/stylish/ "Stylish for Safari"
+[5]: https://addons.mozilla.org/fr/firefox/addon/stylish/ "Stylish for Firefox"
