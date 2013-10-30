@@ -136,6 +136,17 @@
   display: inline-block;
 }
 
+/* Conversations line
+================================================== */
+
+.vellip, 
+.vellip:before, 
+.vellip:after, 
+.conversation-module > li:after, 
+.conversation-module > li:before {
+  background-color: #ddd;
+}
+
 /* Misc
 ================================================== */
 
