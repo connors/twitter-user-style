@@ -18,11 +18,28 @@
 
 /* Center the content and resize to one column */
 .content-main { float: none; margin: 0 auto; }
-.wrapper { width: 520px; }
+.wrapper { 
+  width: 520px;
+  padding-left: 15px; 
+  padding-right: 15px; 
+}
 
 /* Top bar
 ================================================== */
 
+/* Flatten up that top bar */
+.topbar {
+  box-shadow: none;
+}
+.global-nav,
+.global-nav .well,
+.nav .active > a,
+.btn-tweet,
+.btn-tweet:hover,
+.btn-tweet:active,
+.card-soccer .cover {
+  background-image: none;
+}
 .global-nav .container {
   width: 550px;
 }
@@ -41,8 +58,14 @@
 .global-nav .form-search {
   width: 170px;
 }
-.global-nav .search-input { width: 110px; }
+.global-nav .search-input { 
+  width: 110px;
+  box-shadow: none;
+}
 .global-nav .search-input.focus { width: 130px; }
+.btn-tweet:hover {
+  background-color: #3493e8;
+}
 
 /* Move the load spinner to the top right on the screen */
 .pushstate-spinner { 
@@ -52,7 +75,7 @@
   left: auto;
 }
 /* So I can place the pushstate-spinner all the way to the right. */
-.container { position: static; }
+.container { position: static;  }
 
 /* Side navigation
 ================================================== */
