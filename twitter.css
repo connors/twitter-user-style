@@ -123,15 +123,9 @@
 .module .active .list-link {
   background-color: rgba(255,255,255,.9);;
 }
-/* Black */
-.wrapper.black .module { 
-  -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.1);
-     -moz-box-shadow:  0 1px 0 rgba(255,255,255,.1);
-          box-shadow:  0 1px 0 rgba(255,255,255,.1), inset 0 0 5px rgba(0,0,0,.3);
- }
 .wrapper.black .module .list-link {
   background-color: rgba(0,0,0,.3);
-  color: #ccc;
+  color: rgb(236, 236, 236);
   text-shadow: 0 1px 0 rgba(0,0,0,.5);
   -webkit-box-shadow: none;
      -moz-box-shadow: none;
