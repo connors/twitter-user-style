@@ -173,3 +173,7 @@
   font-family: Georgia, serif; 
   font-style: italic; 
 }
+/* Remove the outline on :active in Chrome. */
+button {
+  outline: none;
+}
