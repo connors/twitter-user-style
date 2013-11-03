@@ -1,4 +1,4 @@
-# Twitter.com user style
+# [Twitter.com user style](http://connors.github.io/simple-user-styles/#twitter)
 
 I love Twitter. I especially love how simple it is on mobile and this user style brings that experience to the desktop web client.
 
