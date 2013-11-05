@@ -9,7 +9,8 @@
 .mini-profile,
 .chev-right,
 .module[data-component-term^="profile_tweetbox"],
-.bird-topbar-etched { 
+.bird-topbar-etched,
+.promoted-tweet {
   display: none !important; 
 }
 
