@@ -17,9 +17,13 @@
 ================================================== */
 
 /* Center the content and resize to one column */
-.content-main { float: none; margin: 0 auto; }
+.content-main {
+    float: none;
+    margin: 0 auto;
+    width: 800px;
+}
 .wrapper { 
-  width: 520px;
+  width: 800px;
   padding-left: 15px; 
   padding-right: 15px; 
 }
@@ -41,7 +45,7 @@
   background-image: none;
 }
 .global-nav .container {
-  width: 550px;
+  width: 800px;
 }
 /* Hide the main navigation text */
 .global-nav #global-actions li span.text {
@@ -80,12 +84,11 @@
 /* Side navigation
 ================================================== */
 
-/* Move the dashboard parent div to the left margin. */
+/* Place the dashboard parent div above the feed */
 .dashboard { 
-  position: absolute; 
-  left: -210px; 
-  width: 200px;
- }
+  float: none;
+  width: 800px;
+}
 
 /* Nav module */
 .module { 
