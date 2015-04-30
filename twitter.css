@@ -47,6 +47,13 @@
 .global-nav .container {
   width: 800px;
 }
+/* Fix the placement of the search elements */
+.global-nav .search-input {
+  min-width: 150px;
+}
+.global-nav .search-icon {
+  right: -15px;   
+}
 /* Hide the main navigation text */
 .global-nav #global-actions li span.text {
   display: none;
