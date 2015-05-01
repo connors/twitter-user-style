@@ -180,3 +180,9 @@ button {
   float: left;
   width: 100%;
 }
+/* Make the profile header images smaller */
+.ProfileCanopy,
+.ProfileCanopy--large,
+.ProfileCanopy--large .ProfileCanopy-header {
+  height: 200px !important;
+}
