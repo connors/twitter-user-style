@@ -14,7 +14,9 @@
 .ProfileAvatar,
 .ProfileHeaderCard h1,
 .ProfileHeaderCard h2,
-.PhotoRail { 
+.PhotoRail,
+.DashboardProfileCard,
+.ProfileUserList { 
   display: none !important; 
 }
 
@@ -36,7 +38,9 @@
   padding-right: 15px; 
 }
 .content-main .u-size1of3,
-.content-main .u-size2of3 {
+.content-main .u-size2of3,
+.content-main .u-lg-size1of3,
+.content-main .u-lg-size2of3 {
   width: 100% !important;   
 }
 
@@ -90,9 +94,10 @@
   background-color: #3493e8;
 }
 /* Improve position of nav bar elements */
-.ProfileCanopy-card {
+.ProfileCanopy-card,
+.ProfileCanopy-navBar .Grid-cell{
   padding-top: 0;
-	width: 250px;
+	width: 300px !important;
 }
 .ProfileCanopy-navBar .u-size2of3 {
   width: 500px !important;
@@ -160,4 +165,18 @@
 /* Remove the outline on :active in Chrome. */
 button {
   outline: none;
+}
+/* Three column layout for profile header items */
+.ProfileHeaderCard-location, .ProfileHeaderCard-url, .ProfileHeaderCard-joinDate {
+  margin-bottom: 6px;
+  width: 33.3% !important;
+  float: left;
+}
+.ProfileSidebar .ProfileHeaderCard {
+  margin: 12px 0;
+}
+.ProfileHeaderCard .ProfileMessagingActions {
+  clear: left;
+  float: left;
+  width: 100%;
 }
