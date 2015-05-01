@@ -9,7 +9,14 @@
 .mini-profile,
 .chev-right,
 .module[data-component-term^="profile_tweetbox"],
-.bird-topbar-etched { 
+.bird-topbar-etched,
+.WhoToFollow,
+.ProfileAvatar,
+.ProfileHeaderCard h1,
+.ProfileHeaderCard h2,
+.PhotoRail,
+.DashboardProfileCard,
+.ProfileUserList { 
   display: none !important; 
 }
 
@@ -17,11 +24,24 @@
 ================================================== */
 
 /* Center the content and resize to one column */
-.content-main { float: none; margin: 0 auto; }
+.content-main {
+    float: none;
+    margin: 0 auto !important;
+    width: 800px !important;
+}
+.AppContainer {
+    width: 800px !important;
+}
 .wrapper { 
-  width: 520px;
+  width: 800px !important;
   padding-left: 15px; 
   padding-right: 15px; 
+}
+.content-main .u-size1of3,
+.content-main .u-size2of3,
+.content-main .u-lg-size1of3,
+.content-main .u-lg-size2of3 {
+  width: 100% !important;   
 }
 
 /* Top bar
@@ -41,7 +61,14 @@
   background-image: none;
 }
 .global-nav .container {
-  width: 550px;
+  width: 800px;
+}
+/* Fix the placement of the search elements */
+.global-nav .search-input {
+  min-width: 150px;
+}
+.global-nav .search-icon {
+  right: -15px;   
 }
 /* Hide the main navigation text */
 .global-nav #global-actions li span.text {
@@ -66,6 +93,16 @@
 .btn-tweet:hover {
   background-color: #3493e8;
 }
+/* Improve position of nav bar elements */
+.ProfileCanopy-card,
+.ProfileCanopy-navBar .Grid-cell{
+  padding-top: 0;
+	width: 300px !important;
+}
+.ProfileCanopy-navBar .u-size2of3 {
+  width: 500px !important;
+  float: right;
+}
 
 /* Move the load spinner to the top right on the screen */
 .pushstate-spinner { 
@@ -80,12 +117,11 @@
 /* Side navigation
 ================================================== */
 
-/* Move the dashboard parent div to the left margin. */
+/* Place the dashboard parent div above the feed */
 .dashboard { 
-  position: absolute; 
-  left: -210px; 
-  width: 200px;
- }
+  float: none;
+  width: 800px;
+}
 
 /* Nav module */
 .module { 
@@ -95,53 +131,6 @@
   border-top: none;
   -webkit-transition: all .1s linear;
      -moz-transition: all .1s linear;
-}
-
-/* Nav styles based on the user specified overlay color  */
-/* White */
-.module { 
-  -webkit-box-shadow: 0 -1px 0 rgba(0,0,0,.2);
-     -moz-box-shadow:  0 -1px 0 rgba(0,0,0,.2);
-          box-shadow:  0 1px 0 rgba(0,0,0,.2);
-}
-.module .list-link {
-  background-color: rgba(255,255,255,.5);
-  color: #333;
-  text-shadow: 0 1px 0 rgba(255,255,255,.3);
-  -webkit-box-shadow: none;
-     -moz-box-shadow: none;
-          box-shadow: none;
-}
-.module:hover .list-link {
-  background-color: rgba(255,255,255,.7);
- }
-.module .list-link:hover,
-.module .active .list-link {
-  color: #111;
-}
-.module .list-link:hover,
-.module .active .list-link {
-  background-color: rgba(255,255,255,.9);;
-}
-/* Black */
-.wrapper.black .module .list-link {
-  background-color: rgba(0,0,0,.3);
-  color: #ccc;
-  text-shadow: 0 1px 0 rgba(0,0,0,.5);
-  -webkit-box-shadow: none;
-     -moz-box-shadow: none;
-          box-shadow: none;
-}
-.wrapper.black .module:hover .list-link {
-  background-color: rgba(0,0,0,.5);
-}
-.wrapper.black .module .list-link:hover,
-.wrapper.black .module .active .list-link {
-  color: #eee;
-}
-.wrapper.black .module .list-link:hover,
-.wrapper.black .module .active .list-link {
-  background-color: rgba(0,0,0,.7);
 }
 
 /* Tweet actions
@@ -176,4 +165,24 @@
 /* Remove the outline on :active in Chrome. */
 button {
   outline: none;
+}
+/* Three column layout for profile header items */
+.ProfileHeaderCard-location, .ProfileHeaderCard-url, .ProfileHeaderCard-joinDate {
+  margin-bottom: 6px;
+  width: 33.3% !important;
+  float: left;
+}
+.ProfileSidebar .ProfileHeaderCard {
+  margin: 12px 0;
+}
+.ProfileHeaderCard .ProfileMessagingActions {
+  clear: left;
+  float: left;
+  width: 100%;
+}
+/* Make the profile header images smaller */
+.ProfileCanopy,
+.ProfileCanopy--large,
+.ProfileCanopy--large .ProfileCanopy-header {
+  height: 200px !important;
 }
