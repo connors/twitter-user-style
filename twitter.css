@@ -24,14 +24,14 @@
 /* Center the content and resize to one column */
 .content-main {
     float: none;
-    margin: 0 auto;
-    width: 800px;
+    margin: 0 auto !important;
+    width: 800px !important;
 }
 .AppContainer {
-    width: 800px;
+    width: 800px !important;
 }
 .wrapper { 
-  width: 800px;
+  width: 800px !important;
   padding-left: 15px; 
   padding-right: 15px; 
 }
