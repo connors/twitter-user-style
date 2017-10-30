@@ -9,6 +9,7 @@ Use the Stylish extension for the browser you prefer.
  * Get the [Chrome][3] extension.
  * Get the [Safari][4] extension.
  * Get the [Firefox][5] addon.
+ * IE addon in progress
 
 ## Notes
 Feel free to send any questions or feedback to [connor@connorsears.com][1] or find me on Twitter at @[connors][2].
